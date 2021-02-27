@@ -18,7 +18,7 @@
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">access_time</i> update 2 menit lalu
+                    <i class="material-icons">access_time</i> update 50 menit lalu
                   </div>
                 </div>
               </div>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">access_time</i> update 2 menit lalu
+                    <i class="material-icons">access_time</i> update 40 menit lalu
                   </div>
                 </div>
               </div>

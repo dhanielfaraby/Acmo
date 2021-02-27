@@ -15,7 +15,7 @@ The above copyright notice and this permission notice shall be included in all c
 <head>
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="icon" type="image/png" href="assets/img/acmo.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
     <?= $title; ?>
@@ -38,33 +38,33 @@ The above copyright notice and this permission notice shall be included in all c
 
         Tip 2: you can also add an image using data-image tag
     -->
-      <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+      <div class="logo"><a href="<?= base_url() ?>" class="simple-text logo-normal">
+          <img src="assets/img/fix.png" class="img-fluid" alt="" style="height: 50pt; width: 150pt">
         </a></div>
         <div class="sidebar-wrapper">
         <ul class="nav">
-          <li class="nav-item active  ">
-            <a class="nav-link" href="./dashboard.html">
+          <li class="nav-item <?= ($activeTab == "dashboard") ? "active" : ""; ?>  ">
+            <a class="nav-link" href="<?= base_url(); ?>">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./user.html">
+          <li class="nav-item <?= ($activeTab == "profil") ? "active" : ""; ?>">
+            <a class="nav-link" href="<?= base_url('profil') ?>">
               <i class="material-icons">person</i>
               <p>User Profile</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./tables.html">
+          <li class="nav-item <?= ($activeTab == "jadwal") ? "active" : ""; ?>">
+            <a class="nav-link" href="<?= base_url('jadwal') ?>">
               <i class="material-icons">content_paste</i>
               <p>Jadwal Pekan Ini</p>
             </a>
           </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./notifications.html">
+          <li class="nav-item <?= ($activeTab == "notifikasi") ? "active" : ""; ?>">
+            <a class="nav-link" href="<?= base_url('notifikasi'); ?>">
               <i class="material-icons">notifications</i>
-              <p>Notifications</p>
+              <p>Notifikasi</p>
             </a>
           </li>
         </ul>
@@ -200,22 +200,22 @@ The above copyright notice and this permission notice shall be included in all c
         <li class="header-title">Images</li>
         <li class="active">
           <a class="img-holder switch-trigger" href="javascript:void(0)">
-            <img src="../assets/img/sidebar-1.jpg" alt="">
+            <img src="assets/img/sidebar-1.jpg" alt="">
           </a>
         </li>
         <li>
           <a class="img-holder switch-trigger" href="javascript:void(0)">
-            <img src="../assets/img/sidebar-2.jpg" alt="">
+            <img src="assets/img/sidebar-2.jpg" alt="">
           </a>
         </li>
         <li>
           <a class="img-holder switch-trigger" href="javascript:void(0)">
-            <img src="../assets/img/sidebar-3.jpg" alt="">
+            <img src="assets/img/sidebar-3.jpg" alt="">
           </a>
         </li>
         <li>
           <a class="img-holder switch-trigger" href="javascript:void(0)">
-            <img src="../assets/img/sidebar-4.jpg" alt="">
+            <img src="assets/img/sidebar-4.jpg" alt="">
           </a>
         </li>
         <li class="button-container">
@@ -463,6 +463,9 @@ The above copyright notice and this permission notice shall be included in all c
     $(document).ready(function() {
       // Javascript method's body can be found in assets/js/demos.js
       md.initDashboardPageCharts();
+
+      //init DateTimePickers
+      md.initFormExtendedDatetimepickers();
 
     });
   </script>
