@@ -10,6 +10,6 @@ class Jadwal extends BaseController
 			'title' => "Acmo - Jadwal Pekan Ini",
 			'activeTab' => 'jadwal'
 		];
-		echo view('tables', $data);
+		echo view('jadwal', $data);
 	}
 }
