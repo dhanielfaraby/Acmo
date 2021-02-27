@@ -39,35 +39,18 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="card card-chart">
-                <div class="card-header card-header-danger">
-                  <div class="ct-chart" id="completedTasksChart"></div>
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Tugas Pekan Ini</h4>
-                  <p class="card-category">Last Update</p>
-                </div>
-                <div class="card-footer">
-                  <div class="stats">
-                    <i class="material-icons">access_time</i> update 2 menit lalu
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            
           <div class="row">
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header card-header-tabs card-header-primary">
                   <div class="nav-tabs-navigation">
                     <div class="nav-tabs-wrapper">
-                      <span class="nav-tabs-title">Tasks:</span>
                       <ul class="nav nav-tabs" data-tabs="tabs">
                         
                         <li class="nav-item">
                           <a class="nav-link" href="#messages" data-toggle="tab">
-                            <i class="material-icons">note</i> Note
+                            <i class="material-icons">note</i> Catatan
                             <div class="ripple-container"></div>
                           </a>
                         </li>
@@ -112,7 +95,7 @@
                                 </label>
                               </div>
                             </td>
-                            <td>Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
+                            <td>Banjir cuy
                             </td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
@@ -134,7 +117,7 @@
                                 </label>
                               </div>
                             </td>
-                            <td>Create 4 Invisible User Experiences you Never Knew About</td>
+                            <td>PR Matematika kumpul 27 september</td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
                                 <i class="material-icons">edit</i>
