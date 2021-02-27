@@ -18,7 +18,7 @@ The above copyright notice and this permission notice shall be included in all c
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>
-    Material Dashboard by Creative Tim
+    Acmo
   </title>
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
   <!--     Fonts and icons     -->
@@ -39,7 +39,7 @@ The above copyright notice and this permission notice shall be included in all c
         Tip 2: you can also add an image using data-image tag
     -->
       <div class="logo"><a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+          ACMO
         </a></div>
       <div class="sidebar-wrapper">
         <ul class="nav">
@@ -147,13 +147,13 @@ The above copyright notice and this permission notice shall be included in all c
                   <div class="ct-chart" id="dailySalesChart"></div>
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">Daily Sales</h4>
+                  <h4 class="card-title">Covid-19</h4>
                   <p class="card-category">
-                    <span class="text-success"><i class="fa fa-long-arrow-up"></i> 55% </span> increase in today sales.</p>
+                    <span class="text-success"><i class="fa fa-long-arrow-up"></i> 55% </span>Peningkatan Covid-19</p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">access_time</i> updated 4 minutes ago
+                    <i class="material-icons">access_time</i> update 2 menit lalu
                   </div>
                 </div>
               </div>
@@ -164,12 +164,12 @@ The above copyright notice and this permission notice shall be included in all c
                   <div class="ct-chart" id="websiteViewsChart"></div>
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">Email Subscriptions</h4>
-                  <p class="card-category">Last Campaign Performance</p>
+                  <h4 class="card-title">Jadwal Anda Pekan Ini</h4>
+                  <p class="card-category">Mohon diperhatikan</p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">access_time</i> campaign sent 2 days ago
+                    <i class="material-icons">access_time</i> update 2 menit lalu
                   </div>
                 </div>
               </div>
@@ -180,12 +180,12 @@ The above copyright notice and this permission notice shall be included in all c
                   <div class="ct-chart" id="completedTasksChart"></div>
                 </div>
                 <div class="card-body">
-                  <h4 class="card-title">Completed Tasks</h4>
-                  <p class="card-category">Last Campaign Performance</p>
+                  <h4 class="card-title">Tugas Pekan Ini</h4>
+                  <p class="card-category">Last Update</p>
                 </div>
                 <div class="card-footer">
                   <div class="stats">
-                    <i class="material-icons">access_time</i> campaign sent 2 days ago
+                    <i class="material-icons">access_time</i> update 2 menit lalu
                   </div>
                 </div>
               </div>
@@ -226,28 +226,7 @@ The above copyright notice and this permission notice shall be included in all c
                                 </label>
                               </div>
                             </td>
-                            <td>Sign contract for "What are conference organizers afraid of?"</td>
-                            <td class="td-actions text-right">
-                              <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
-                                <i class="material-icons">edit</i>
-                              </button>
-                              <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
-                                <i class="material-icons">close</i>
-                              </button>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <div class="form-check">
-                                <label class="form-check-label">
-                                  <input class="form-check-input" type="checkbox" value="">
-                                  <span class="form-check-sign">
-                                    <span class="check"></span>
-                                  </span>
-                                </label>
-                              </div>
-                            </td>
-                            <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
+                            <td>Pada hari selasa saya pergi bersama mantan</td>
                             <td class="td-actions text-right">
                               <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
                                 <i class="material-icons">edit</i>
@@ -429,41 +408,41 @@ The above copyright notice and this permission notice shall be included in all c
             <div class="col-lg-6 col-md-12">
               <div class="card">
                 <div class="card-header card-header-warning">
-                  <h4 class="card-title">Employees Stats</h4>
-                  <p class="card-category">New employees on 15th September, 2016</p>
+                  <h4 class="card-title">Daftar Siswa/i Hari ini</h4>
+                  <p class="card-category">On 1 September, 2021</p>
                 </div>
                 <div class="card-body table-responsive">
                   <table class="table table-hover">
                     <thead class="text-warning">
                       <th>ID</th>
-                      <th>Name</th>
-                      <th>Salary</th>
-                      <th>Country</th>
+                      <th>Nama</th>
+                      <th>Kelas</th>
+                      <th>Mata Pelajaran</th>
                     </thead>
                     <tbody>
                       <tr>
                         <td>1</td>
-                        <td>Dakota Rice</td>
-                        <td>$36,738</td>
-                        <td>Niger</td>
+                        <td>Adam Rice</td>
+                        <td>A</td>
+                        <td>Matematika</td>
                       </tr>
                       <tr>
                         <td>2</td>
                         <td>Minerva Hooper</td>
-                        <td>$23,789</td>
-                        <td>Curaçao</td>
+                        <td>A</td>
+                        <td>Matematika</td>
                       </tr>
                       <tr>
                         <td>3</td>
                         <td>Sage Rodriguez</td>
-                        <td>$56,142</td>
-                        <td>Netherlands</td>
+                        <td>B</td>
+                        <td>Inggris</td>
                       </tr>
                       <tr>
                         <td>4</td>
                         <td>Philip Chaney</td>
-                        <td>$38,735</td>
-                        <td>Korea, South</td>
+                        <td>B</td>
+                        <td>Inggris</td>
                       </tr>
                     </tbody>
                   </table>
