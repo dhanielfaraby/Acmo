@@ -6,6 +6,10 @@ class Home extends BaseController
 {
 	public function index()
 	{
-		return view('dashboard');
+		$data = [
+			'title' => "Acmo - Dashboard",
+			'activeTab' => 'dashboard'
+		];
+		echo view('dashboard', $data);
 	}
 }
