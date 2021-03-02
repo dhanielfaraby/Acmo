@@ -11,7 +11,7 @@
 					<img src="assets/img/img-01.png" alt="IMG">
 				</div>
 
-				<form action=" <?= base_url('home'); ?>" method="POST" class="login100-form validate-form">
+				<form action=" <?= base_url('Reset_password'); ?>" method="POST" class="login100-form validate-form">
 					<span class="login100-form-title">
 						Lupa Password
 					</span>
