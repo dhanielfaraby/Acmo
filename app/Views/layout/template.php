@@ -34,7 +34,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 <body class="">
   <div class="wrapper ">
-    <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-1.jpg">
+    <div class="sidebar" data-color="purple" data-background-color="white" data-image="assets/img/sidebar-1.jpg">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -46,7 +46,7 @@ The above copyright notice and this permission notice shall be included in all c
         <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item <?= ($activeTab == "dashboard") ? "active" : ""; ?>  ">
-            <a class="nav-link" href="<?= base_url(); ?>">
+            <a class="nav-link" href="<?= base_url('home'); ?>">
               <i class="material-icons">dashboard</i>
               <p>Dashboard</p>
             </a>
