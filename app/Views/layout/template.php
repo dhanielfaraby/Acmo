@@ -43,7 +43,7 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="logo"><a href="<?= base_url() ?>" class="simple-text logo-normal">
           <img src="assets/img/fix.png" class="img-fluid" alt="" style="height: 50pt; width: 150pt">
         </a></div>
-        <div class="sidebar-wrapper">
+      <div class="sidebar-wrapper">
         <ul class="nav">
           <li class="nav-item <?= ($activeTab == "dashboard") ? "active" : ""; ?>  ">
             <a class="nav-link" href="<?= base_url('home'); ?>">
@@ -68,6 +68,12 @@ The above copyright notice and this permission notice shall be included in all c
               <i class="material-icons">notifications</i>
               <p>Notifikasi</p>
             </a>
+          <li class="nav-item <?= ($activeTab == "ruangan") ? "active" : ""; ?>">
+            <a class="nav-link" href="<?= base_url('ruangan') ?>">
+              <i class="material-icons">business</i>
+              <p>Pesan Ruangan</p>
+            </a>
+          </li>
           </li>
           <?php if($user['tipe_user']==1){?>
               <li class="nav-item <?= ($activeTab == "notifikasi") ? "active" : ""; ?>">
@@ -90,15 +96,17 @@ The above copyright notice and this permission notice shall be included in all c
           <div class="navbar-wrapper">
             <a class="navbar-brand" href="javascript:;">
               <?php
-                if($activeTab == "dashboard"){ ?>
-                  Dashboard
-                <?php } elseif($activeTab == "profil"){ ?>
-                  Profil User
-                <?php } elseif($activeTab == "jadwal"){ ?>
-                  Jadwal Kegiatan
-                <?php } elseif($activeTab == "notifikasi"){ ?>
-                  Notifikasi
-                <?php }
+              if ($activeTab == "dashboard") { ?>
+                Dashboard
+              <?php } elseif ($activeTab == "profil") { ?>
+                Profil User
+              <?php } elseif ($activeTab == "jadwal") { ?>
+                Jadwal Kegiatan
+              <?php } elseif ($activeTab == "notifikasi") { ?>
+                Notifikasi
+              <?php } elseif ($activeTab == "ruangan") { ?>
+                Pesan Ruangan
+              <?php }
               ?>
             </a>
           </div>
@@ -347,8 +355,7 @@ The above copyright notice and this permission notice shall be included in all c
         },
         editable: true,
         dayMaxEvents: true, // allow "more" link when too many events
-        events: [
-          {
+        events: [{
             title: 'All Day Event',
             start: '2020-09-01'
           },
