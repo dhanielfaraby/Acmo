@@ -68,6 +68,12 @@ The above copyright notice and this permission notice shall be included in all c
               <i class="material-icons">notifications</i>
               <p>Notifikasi</p>
             </a>
+            <li class="nav-item <?= ($activeTab == "ruangan") ? "active" : ""; ?>">
+            <a class="nav-link" href="<?= base_url('ruangan') ?>">
+              <i class="material-icons">content_paste</i>
+              <p>Pesan Ruangan</p>
+            </a>
+          </li>
           </li>
         </ul>
       </div>
@@ -87,6 +93,8 @@ The above copyright notice and this permission notice shall be included in all c
                   Jadwal Kegiatan
                 <?php } elseif($activeTab == "notifikasi"){ ?>
                   Notifikasi
+                <?php } elseif($activeTab == "ruangan"){ ?>
+                  Pesan Ruangan
                 <?php }
               ?>
             </a>
