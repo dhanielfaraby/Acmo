@@ -69,6 +69,17 @@ The above copyright notice and this permission notice shall be included in all c
               <p>Notifikasi</p>
             </a>
           </li>
+          <?php if($user['tipe_user']==1){?>
+              <li class="nav-item <?= ($activeTab == "notifikasi") ? "active" : ""; ?>">
+              <a class="nav-link" href="<?= base_url('input_siswa'); ?>">
+                <i class="material-icons">content_paste</i>
+                <p>Input Siswa</p>
+              </a>
+            </li>
+          <?php
+          }
+          ?>
+          
         </ul>
       </div>
     </div>
