@@ -22,8 +22,14 @@
               </div>
               <div class="col-md">
                 <div class="form-group">
-                  <label class="bmd-label-floating">Email address</label>
+                  <label class="bmd-label-floating">Email Adress</label>
                   <input type="email" class="form-control">
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-group">
+                  <label class="bmd-label-floating">Banyaknya Pengunjung</label>
+                  <input type="number" class="form-control">
                 </div>
               </div>
               <div class="col-md-12">
