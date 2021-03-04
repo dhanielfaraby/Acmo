@@ -4,22 +4,22 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Siswa extends Model
+class Sekolah extends Model
 {
-    protected $table      = 'user';
-    protected $primaryKey = 'id';
+    protected $table      = 'sekolah';
+    protected $primaryKey = 'id_sekolah';
 
     protected $useAutoIncrement = true;
 
     protected $returnType     = 'array';
     protected $useSoftDeletes = false;
 
-    protected $allowedFields = ['name', 'email'];
+    protected $allowedFields = ['nama', 'alamat', 'email', 'telepon', 'kota', 'provinsi', 'pass', 'is_active'];
 
-    protected $useTimestamps = true;
+    /* protected $useTimestamps = true;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
-    protected $deletedField  = 'deleted_at';
+    protected $deletedField  = 'deleted_at'; */
 
     protected $validationRules    = [];
     protected $validationMessages = [];
